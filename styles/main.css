@@ -9,41 +9,60 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid green;
 }
 
 .container__image__hero {
+    padding: 10px;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
     width: 155px;
 }
 
 .header__nav {
-    border: 2px solid violet;
+    display: flex;
+    position: block;
+    bottom: 0;
+    margin: 10px 0 13px 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .header__nav__list {
-    border: 2px solid blue;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
 }
 
 .header__nav__item {
-    border: 2px solid purple;
+    position: relative;
+    display: inline;
+    font-size: 16px;
+}
+
+.link__blog,
+.link__contact {
+    color: #4a4a4a;
 }
 
 .logo__adalab {
     width: 155px;
 }
 
-.section__container {
-    border: 2px solid yellow;
-}
-
 .section__first {
-    border: 2px solid green;
     background: #3CDBC0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 500px;
+
 }
 
 .section__title {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     color: #FFFFFF;
 }
