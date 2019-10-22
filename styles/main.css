@@ -66,3 +66,10 @@
     align-items: center;
     color: #FFFFFF;
 }
+
+@media all and (min-width:768px) {
+    .container__image__hero {
+        /* falta la version desktop/tablet */
+
+    }
+}
