@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+}
+
+.header__web {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+}
+
+.container__image__hero {
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    width: 155px;
+}
+
+.header__nav {
+    border: 2px solid violet;
+}
+
+.header__nav__list {
+    border: 2px solid blue;
+}
+
+.header__nav__item {
+    border: 2px solid purple;
+}
+
+.logo__adalab {
+    width: 155px;
+}
+
+.section__container {
+    border: 2px solid yellow;
+}
+
+.section__first {
+    border: 2px solid green;
+    background: #3CDBC0;
+}
+
+.section__title {
+    color: #FFFFFF;
+}
